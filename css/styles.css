@@ -99,7 +99,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1.5;
     overflow-x: hidden;
+    font-weight: 500;
+    margin-top: 80px;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -136,8 +139,9 @@ a:active {
 	1.2. TYPOGRAPHY. 
    ================== */
 h1{
-    font-size: 24px;
-	font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 h2{
@@ -361,6 +365,8 @@ p{
     padding: 15px;
     margin: 0px auto 0px auto;
 }
+
+
 
 .section-full{
     padding: 15px;
@@ -772,10 +778,17 @@ p.cursive{
 
 .span-title h1{
     color: #FFF;
+    font-size: 48px;
+    font-family: "Avant Garde", sans-serif;
+    font-weight: 900;
+    
 }
 
 .span-title p{
     color: #FFF;
+    font-size: 36px;
+    font-family: "Avant Garde", sans-serif;
+    font-weight: regular;
 }
 
 .section-title h2{
@@ -4549,7 +4562,7 @@ hr.post-divider{
 .pricing-table{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 500px;
+    height: 1000px;
     border-radius: 5px;
 }
 
@@ -4622,6 +4635,11 @@ hr.post-divider{
   color: #fff;
   background-color: #ff6670;
   border-color: #ff6670;
+}
+
+.pricing-body .btn-margin {
+    width:90%; 
+    padding:10px 10px 10px 10px;
 }
 
 /* ========== #SERVICES 2 ========== */
@@ -6737,5 +6755,19 @@ h6 {
 /* ================================== 
 	4. COMPONENTS MODULE BREAKPOINTS. 
    ================================== */
+}
+/* ================================== 
+	Custom Additions 
+   ================================== */
+
+p {
+    line-height: 1.8;
+    margin: 0 0 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+  
+p, li {
+    font-size: 1.2em;
 }
 
