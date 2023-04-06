@@ -1,0 +1,16 @@
+Images:
+  - update truck papers logo (truck-papers.png)
+    could be image of truck, and image of paper
+  + favicon
+
+Pages:
+  Landing Page:
+  IFTA/IRP:
+    
+
+Google:
+  + tag
+
+Publish:
+  - repository
+  + domain
