@@ -957,6 +957,10 @@ hr.center{
     margin: 0 0 0 2em; /* add a left margin to the list items */
 }
 
+.spacious li {
+    margin-bottom: 10px;
+}
+
 .about-signature-2{
     width: 200px;
 }
