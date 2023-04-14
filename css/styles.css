@@ -940,6 +940,7 @@ hr.center{
 }
 
 .bullet-list{
+    list-style-type: disc;
     margin: 15px 0px 20px 0px;
 }
 
@@ -950,6 +951,10 @@ hr.center{
 .bullet-list .fa{
     color: #FF404C;
     font-size: 16px;
+}
+
+.bullet-list li {
+    margin: 0 0 0 2em; /* add a left margin to the list items */
 }
 
 .about-signature-2{
